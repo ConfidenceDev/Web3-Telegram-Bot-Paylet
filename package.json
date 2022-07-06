@@ -1,0 +1,32 @@
+{
+  "name": "paylet",
+  "version": "1.0.0",
+  "description": "A simple sms based api for crypto transactions",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "crypto",
+    "wallet",
+    "blockchain",
+    "telegram",
+    "binance",
+    "sms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "ethereumjs-common": "^1.5.2",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.3",
+    "redstone-api": "^0.4.7",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,27 @@
+//=============== ORDERS ==================
+
+GET http://localhost:4000/send
+//Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbmVAbWFpbC5jb20iLCJwYXNzd29yZCI6IkphbmVAMTIzIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjE5Nzg5NzU1LCJleHAiOjE2MTk3OTY5NTV9.I0GD2PBfU74bTXyCyqq0PX6Z6P--wUymTEqA7fqkFCw
+
+###
+
+POST http://5305-105-112-213-127.ngrok.io/query
+//Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbmVAbWFpbC5jb20iLCJwYXNzd29yZCI6IkphbmVAMTIzIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjE5Nzg5NzU1LCJleHAiOjE2MTk3OTY5NTV9.I0GD2PBfU74bTXyCyqq0PX6Z6P--wUymTEqA7fqkFCw
+
+{
+ "msg": "Hello World!"
+}
+
+###
+
+PUT http://localhost:4000/orders/status/608be9e14f7ea520983442de
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbmVAbWFpbC5jb20iLCJwYXNzd29yZCI6IkphbmVAMTIzIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjE5Nzg2OTY3LCJleHAiOjE2MTk3OTQxNjd9.pwln5MYdDFBcUthlPK8dROjU8AmJ04FZ6RVfD3ZcahA
+
+{
+    "status": "Arrived", 
+}
+
+###
+
+DELETE  http://localhost:4000/orders/608be9e14f7ea520983442de
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbmVAbWFpbC5jb20iLCJwYXNzd29yZCI6IkphbmVAMTIzIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjE5Nzg2OTY3LCJleHAiOjE2MTk3OTQxNjd9.pwln5MYdDFBcUthlPK8dROjU8AmJ04FZ6RVfD3ZcahA
